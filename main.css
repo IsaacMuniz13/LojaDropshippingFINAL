@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1E1E1E;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+.corpo {
+    background-color: #0500FF;
+    height: 1500px;
+}
+
+.containermenu {
+    text-align: center;
+}
+
+.menu {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-botao {
+    display: flex;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.flex-item {
+    background-color: #0500FF;
+    padding: 10px;
+
+}
+
+.text-item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container-conteudo {
+    width: 100%;
+}
+
+.container-banner {
+    padding: 15px;
+}
+
+.Banner {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.categ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.iconc {
+    width: 200px;
+}
+
+.cat1, .cat2, .cat3 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.caixabt1, .caixabt2, .caixabt3 {
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+
+.bt1, .bt2, .bt3 {
+    text-decoration: none;
+    color: #0500FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contprodg1, .contprodg2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+    margin-top: 40px;
+
+}
+
+.contprod1, .contprod2, .contprod3, .contprod4, .contprod5, .contprod6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    width: 25.5%;
+    padding: 8px;
+}
+
+.iconp {
+    width: 185px;
+}
+
+h4 {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+h5 {
+    color: greenyellow;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
